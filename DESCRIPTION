@@ -1,0 +1,16 @@
+Package: pcolor
+Type: Package
+Title: Pick Color Freely in Rstudio 
+Version: 0.1.0
+Author: Shalom
+Maintainer: Shalom <slren95@163.com>
+Description: pcolor run as RStudio Addin gadget and help you pick color freely in Rstudio
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: 
+    colourpicker,
+    shiny (>= 0.13),
+    miniUI (>= 0.1.1),
+    rstudioapi (>= 0.5)
+RoxygenNote: 7.2.0
+URL: https://shalom-lab.github.io/pcolor/
