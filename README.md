@@ -6,7 +6,7 @@ The goal of pcolor is to help your pick color freely in RStudio
 ## Installation
 
 You can install the development version of pcolor from
-[GitHub](https://github.com/) with:
+[GitHub](https://github.com/shalom-lab/pcolor) with:
 
 ``` r
 # install.packages("devtools")
