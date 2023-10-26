@@ -3,4 +3,8 @@ Description: Pick color freely in RStudio
 Binding: pcolor
 Interactive: false
 
+Name: Save ggplot
+Description: Save ggplot
+Binding: gsave
+Interactive: false
 
