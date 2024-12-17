@@ -2,11 +2,11 @@
 % Please edit documentation in R/gsave.R
 \name{gsave}
 \alias{gsave}
-\title{Save ggplot Freely(WYSIWYG) in Rstudio}
+\title{Save ggplot in (WYSIWYG) Style}
 \usage{
-gsave
+gsave() # Select your ggplot code at first and then run gsave()
 }
 \description{
 This function run as a Rstudio Addin
-and helps your save ggplot freely in RStudio
+and helps you save ggplot in RStudio
 }

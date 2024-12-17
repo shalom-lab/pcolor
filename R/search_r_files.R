@@ -1,6 +1,7 @@
-#' @title  Search in .R/Rmd/qmd files in current wd
-#' @description This function run as a Rstudio Addin
-#' @usage search_r_files
+#' @title  Searching in Multiple .R Files
+#' @description This function run as a function or Rstudio Addin.
+#' This function searches for a specified string in all `.R` files within the current working directory and its subdirectories.
+#' @usage search_r_files() search strings in Current Working Directory
 #' @import shiny
 #' @import miniUI
 #' @import marker

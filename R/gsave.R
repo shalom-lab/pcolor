@@ -1,7 +1,7 @@
-#' @title  Save ggplot Freely(WYSIWYG) in Rstudio
+#' @title  Save ggplot in (WYSIWYG) Style
 #' @description This function run as a Rstudio Addin
-#' and helps your save ggplot freely in RStudio
-#' @usage gsave
+#' and helps you save ggplot in RStudio
+#' @usage gsave() # Select your ggplot code at first and then run gsave()
 #' @import shiny
 #' @import miniUI
 #' @import rstudioapi
@@ -21,8 +21,8 @@ gsave <- function(n=NULL) {
                      shiny::wellPanel(
                        shiny::tabsetPanel(
                          shiny::tabPanel('基础',
-                                         shiny::numericInput('width','width',500),
-                                         shiny::numericInput('height','height',500),
+                                         shiny::sliderInput('width','width',500),
+                                         shiny::sliderInput('height','height',500),
                                          shiny::radioButtons('units','units',selected = 'px',inline=T,
                                                             choices = c('px','cm','in','mm')),
                                          shiny::sliderInput('dpi','dpi',value = 200,min=50,max=500),
