@@ -8,3 +8,10 @@ Description: Save ggplot
 Binding: gsave
 Interactive: false
 
+Name: Search .R Files
+Description: Search .R Files in Current wd
+Binding: search_r_files
+Interactive: false
+
+
+

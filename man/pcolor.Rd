@@ -4,6 +4,7 @@
 \alias{pcolor}
 \title{Pick Color Freely in Rstudio}
 \usage{
+pcolor
 pcolor(5)
 }
 \arguments{

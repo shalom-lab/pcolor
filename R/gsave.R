@@ -1,12 +1,11 @@
 #' @title  Save ggplot Freely(WYSIWYG) in Rstudio
 #' @description This function run as a Rstudio Addin
 #' and helps your save ggplot freely in RStudio
-#' @usage
+#' @usage gsave
 #' @import shiny
 #' @import miniUI
 #' @import rstudioapi
 #' @export
-
 gsave <- function(n=NULL) {
   ct<-rstudioapi::getSourceEditorContext()
   #print(ct)

@@ -2,15 +2,12 @@
 #' @description This function takes a numeric value or run as a Rstudio Addin
 #' and helps your pick color freely in RStudio
 #' @param n the length of the colors need to generate
-#'
-#' @usage
-#' pcolor(5)
+#' @usage pcolor
 #' @import shiny
 #' @import miniUI
 #' @import colourpicker
 #' @import rstudioapi
 #' @export
-
 pcolor <- function(n=NULL) {
   ct<-rstudioapi::getSourceEditorContext()
   #print(ct)
