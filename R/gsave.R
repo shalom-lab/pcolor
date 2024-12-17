@@ -21,8 +21,8 @@ gsave <- function(n=NULL) {
                      shiny::wellPanel(
                        shiny::tabsetPanel(
                          shiny::tabPanel('基础',
-                                         shiny::sliderInput('width','width',500),
-                                         shiny::sliderInput('height','height',500),
+                                         shiny::sliderInput('width','width',value=1000,min=50,max=3000),
+                                         shiny::sliderInput('height','height',value=800,min=50,max=3000),
                                          shiny::radioButtons('units','units',selected = 'px',inline=T,
                                                             choices = c('px','cm','in','mm')),
                                          shiny::sliderInput('dpi','dpi',value = 200,min=50,max=500),
